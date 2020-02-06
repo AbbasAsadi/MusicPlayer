@@ -1,4 +1,4 @@
-package com.example.hw12_music_player;
+package com.example.music_player;
 
 import android.os.Bundle;
 

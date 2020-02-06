@@ -1,4 +1,4 @@
-package com.example.hw12_music_player;
+package com.example.music_player;
 
 
 import android.content.Context;
@@ -21,13 +21,11 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.hw12_music_player.model.Music;
-import com.example.hw12_music_player.model.MusicPlayer;
-import com.example.hw12_music_player.model.Repository;
+import com.example.music_player.model.Music;
+import com.example.music_player.model.MusicPlayer;
+import com.example.music_player.model.Repository;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import java.io.IOException;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package com.example.hw12_music_player.model;
+package com.example.music_player.model;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.media.MediaMetadataRetriever;
 import android.net.Uri;
 import android.provider.MediaStore;
-import android.provider.Settings;
 import android.util.Log;
 
 import java.util.ArrayList;

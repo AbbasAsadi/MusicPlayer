@@ -1,12 +1,9 @@
-package com.example.hw12_music_player;
+package com.example.music_player;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
-import android.content.Context;
 import android.content.Intent;
-import android.media.MediaPlayer;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -14,8 +11,7 @@ import android.widget.Toast;
 
 import androidx.core.app.NotificationCompat;
 
-import com.example.hw12_music_player.model.Music;
-import com.example.hw12_music_player.model.MusicPlayer;
+import com.example.music_player.model.MusicPlayer;
 
 import java.io.IOException;
 

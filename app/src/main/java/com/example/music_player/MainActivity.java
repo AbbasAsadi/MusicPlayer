@@ -1,11 +1,8 @@
-package com.example.hw12_music_player;
+package com.example.music_player;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
-
-import com.example.hw12_music_player.model.Repository;
 
 public class MainActivity extends SingleFragmentActivity {
 

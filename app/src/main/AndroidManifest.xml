@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hw12_music_player" >
+    package="com.example.music_player" >
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <service
-            android:name=".SoundService"
+            android:name="com.example.music_player.SoundService"
             android:enabled="true"
             android:exported="true"></service>
-        <activity android:name=".MainActivity" >
+        <activity android:name="com.example.music_player.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

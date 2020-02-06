@@ -1,4 +1,4 @@
-package com.example.hw12_music_player.model;
+package com.example.music_player.model;
 
 public class Album {
     private String mAlbumName;
